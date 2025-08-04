@@ -350,7 +350,7 @@ Complete API documentation.
 Simple testing implementation example.
 
 ### [Advanced Example](Examples/AdvancedExample/)
-Complex testing scenarios demonstration.
+Complex testing scenarios implementation.
 
 ### [Custom Example](Examples/CustomExample/)
 Custom testing implementation.
@@ -420,6 +420,23 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+**⭐ Star this repository if it helped you!**
+
+## 📊 Project Statistics
+
+<div align="center">
+
+[![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/iOSTestingTools?style=social)](https://github.com/muhittincamdali/iOSTestingTools/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/iOSTestingTools?style=social)](https://github.com/muhittincamdali/iOSTestingTools/network)
+[![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/iOSTestingTools)](https://github.com/muhittincamdali/iOSTestingTools/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOSTestingTools)](https://github.com/muhittincamdali/iOSTestingTools/pulls)
+
+</div>
+
+## 🌟 Stargazers
+
+[![Stargazers repo roster for @muhittincamdali/iOSTestingTools](https://reporoster.com/stars/muhittincamdali/iOSTestingTools)](https://github.com/muhittincamdali/iOSTestingTools/stargazers)
 
 ## 🙏 Acknowledgments
 
