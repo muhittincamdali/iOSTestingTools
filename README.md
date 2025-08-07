@@ -447,7 +447,6 @@ class PerformanceTests: XCTestCase {
         
         // Measure memory usage
         let memoryUsage = getMemoryUsage()
-        XCTAssertLessThan(memoryUsage, 100) // Less than 100MB
     }
     
     func testCPUUsage() {
@@ -462,7 +461,6 @@ class PerformanceTests: XCTestCase {
         
         // Measure CPU usage
         let cpuUsage = getCPUUsage()
-        XCTAssertLessThan(cpuUsage, 50) // Less than 50%
     }
 }
 ```
@@ -567,7 +565,6 @@ cicdManager.runPipeline { result in
 
 ```bash
 # Clone the repository
-git clone https://github.com/muhittincamdali/iOSTestingTools.git
 
 # Navigate to project directory
 cd iOSTestingTools
@@ -585,7 +582,6 @@ Add the framework to your project:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/muhittincamdali/iOSTestingTools.git", from: "1.0.0")
 ]
 ```
 
@@ -792,15 +788,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/iOSTestingTools?style=social)](https://github.com/muhittincamdali/iOSTestingTools/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/iOSTestingTools?style=social)](https://github.com/muhittincamdali/iOSTestingTools/network)
-[![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/iOSTestingTools)](https://github.com/muhittincamdali/iOSTestingTools/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOSTestingTools)](https://github.com/muhittincamdali/iOSTestingTools/pulls)
-[![GitHub contributors](https://img.shields.io/github/contributors/muhittincamdali/iOSTestingTools)](https://github.com/muhittincamdali/iOSTestingTools/graphs/contributors)
-[![GitHub last commit](https://img.shields.io/github/last-commit/muhittincamdali/iOSTestingTools)](https://github.com/muhittincamdali/iOSTestingTools/commits/master)
 
 </div>
 
 ## 🌟 Stargazers
 
-[![Stargazers repo roster for @muhittincamdali/iOSTestingTools](https://reporoster.com/stars/muhittincamdali/iOSTestingTools)](https://github.com/muhittincamdali/iOSTestingTools/stargazers) 
