@@ -803,4 +803,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🌟 Stargazers
 
-[![Stargazers repo roster for @muhittincamdali/iOSTestingTools](https://reporoster.com/stars/muhittincamdali/iOSTestingTools)](https://github.com/muhittincamdali/iOSTestingTools/stargazers) 
+[![Stargazers repo roster for @muhittincamdali/iOSTestingTools](https://starchart.cc/muhittincamdali/iOSTestingTools.svg)](https://github.com/muhittincamdali/iOSTestingTools/stargazers) 
