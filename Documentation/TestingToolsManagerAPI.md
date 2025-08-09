@@ -1,5 +1,36 @@
 # Testing Tools Manager API
 
+<!-- TOC START -->
+## Table of Contents
+- [Testing Tools Manager API](#testing-tools-manager-api)
+- [Overview](#overview)
+- [Core Classes](#core-classes)
+  - [TestingToolsManager](#testingtoolsmanager)
+    - [Methods](#methods)
+      - [start(with configuration: TestingToolsConfiguration)](#startwith-configuration-testingtoolsconfiguration)
+      - [configure(_ configuration: TestingToolsConfiguration)](#configure-configuration-testingtoolsconfiguration)
+      - [runAllTests(completion: @escaping (Result<TestResults, TestingToolsError>) -> Void)](#runalltestscompletion-escaping-resulttestresults-testingtoolserror-void)
+      - [generateReport(format: ReportFormat) -> TestReport](#generatereportformat-reportformat-testreport)
+- [Configuration](#configuration)
+  - [TestingToolsConfiguration](#testingtoolsconfiguration)
+  - [TestDiscoveryConfiguration](#testdiscoveryconfiguration)
+- [Error Handling](#error-handling)
+  - [TestingToolsError](#testingtoolserror)
+- [Results and Reporting](#results-and-reporting)
+  - [TestResults](#testresults)
+  - [TestReport](#testreport)
+- [Usage Examples](#usage-examples)
+  - [Basic Setup](#basic-setup)
+  - [Advanced Configuration](#advanced-configuration)
+- [Best Practices](#best-practices)
+- [Integration](#integration)
+- [Performance Considerations](#performance-considerations)
+- [Troubleshooting](#troubleshooting)
+  - [Common Issues](#common-issues)
+  - [Debug Mode](#debug-mode)
+<!-- TOC END -->
+
+
 ## Overview
 
 The `TestingToolsManager` is the core component of the iOS Testing Tools framework that orchestrates all testing activities and provides a unified interface for managing different types of tests.

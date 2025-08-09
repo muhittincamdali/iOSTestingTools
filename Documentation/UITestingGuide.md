@@ -1,5 +1,16 @@
 # UI Testing Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [UI Testing Guide](#ui-testing-guide)
+- [Writing UI Tests](#writing-ui-tests)
+- [Example](#example)
+- [Element Finder](#element-finder)
+- [Taking Screenshots](#taking-screenshots)
+- [Best Practices](#best-practices)
+<!-- TOC END -->
+
+
 This guide explains how to write and run UI tests using iOSTestingTools.
 
 ## Writing UI Tests

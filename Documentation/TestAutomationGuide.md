@@ -1,5 +1,17 @@
 # Test Automation Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [Test Automation Guide](#test-automation-guide)
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+  - [Basic Automation Setup](#basic-automation-setup)
+- [CI/CD Integration](#cicd-integration)
+  - [GitHub Actions](#github-actions)
+- [Best Practices](#best-practices)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Test Automation Guide provides comprehensive instructions for setting up and using automated testing in iOS applications.

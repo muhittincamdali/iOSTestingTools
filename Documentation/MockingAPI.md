@@ -1,5 +1,17 @@
 # Mocking API
 
+<!-- TOC START -->
+## Table of Contents
+- [Mocking API](#mocking-api)
+- [Overview](#overview)
+- [Core Components](#core-components)
+  - [MockGenerator](#mockgenerator)
+- [Key Features](#key-features)
+- [Usage Examples](#usage-examples)
+- [Best Practices](#best-practices)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Mocking API provides comprehensive tools for creating and managing mock objects in iOS unit tests.

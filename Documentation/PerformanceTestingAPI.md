@@ -1,5 +1,17 @@
 # Performance Testing API
 
+<!-- TOC START -->
+## Table of Contents
+- [Performance Testing API](#performance-testing-api)
+- [Overview](#overview)
+- [Core Components](#core-components)
+  - [PerformanceTestManager](#performancetestmanager)
+- [Key Features](#key-features)
+- [Usage Examples](#usage-examples)
+- [Best Practices](#best-practices)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Performance Testing API provides comprehensive tools for measuring and analyzing application performance in iOS applications.

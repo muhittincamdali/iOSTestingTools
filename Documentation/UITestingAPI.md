@@ -1,5 +1,17 @@
 # UITesting API
 
+<!-- TOC START -->
+## Table of Contents
+- [UITesting API](#uitesting-api)
+- [Overview](#overview)
+- [Core Components](#core-components)
+  - [UITestManager](#uitestmanager)
+- [Key Features](#key-features)
+- [Usage Examples](#usage-examples)
+- [Best Practices](#best-practices)
+<!-- TOC END -->
+
+
 ## Overview
 
 The UI Testing API provides comprehensive tools for automated UI testing in iOS applications using XCUITest framework.

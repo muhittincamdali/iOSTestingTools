@@ -1,5 +1,19 @@
 # Getting Started with iOSTestingTools
 
+<!-- TOC START -->
+## Table of Contents
+- [Getting Started with iOSTestingTools](#getting-started-with-iostestingtools)
+- [Installation](#installation)
+  - [Swift Package Manager](#swift-package-manager)
+  - [CocoaPods](#cocoapods)
+  - [Carthage](#carthage)
+- [Quick Start](#quick-start)
+- [Example](#example)
+- [Documentation](#documentation)
+- [Support](#support)
+<!-- TOC END -->
+
+
 Welcome to iOSTestingTools! This guide will help you set up and start using the framework for your iOS projects.
 
 ## Installation

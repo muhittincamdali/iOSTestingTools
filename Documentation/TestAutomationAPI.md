@@ -1,5 +1,17 @@
 # Test Automation API
 
+<!-- TOC START -->
+## Table of Contents
+- [Test Automation API](#test-automation-api)
+- [Overview](#overview)
+- [Core Components](#core-components)
+  - [TestAutomationManager](#testautomationmanager)
+- [Key Features](#key-features)
+- [Usage Examples](#usage-examples)
+- [Best Practices](#best-practices)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Test Automation API provides comprehensive tools for automating test execution, CI/CD integration, and test orchestration in iOS applications.

@@ -1,5 +1,17 @@
 # Reporting API
 
+<!-- TOC START -->
+## Table of Contents
+- [Reporting API](#reporting-api)
+- [Overview](#overview)
+- [Core Components](#core-components)
+  - [TestReporter](#testreporter)
+- [Key Features](#key-features)
+- [Usage Examples](#usage-examples)
+- [Best Practices](#best-practices)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Reporting API provides comprehensive tools for generating detailed test reports and analytics in various formats.
