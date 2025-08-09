@@ -1,4 +1,5 @@
 # 🧪 iOS Testing Tools
+[![CI](https://github.com/muhittincamdali/iOSTestingTools/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/muhittincamdali/iOSTestingTools/actions/workflows/ci.yml)
 
 <!-- TOC START -->
 ## Table of Contents
