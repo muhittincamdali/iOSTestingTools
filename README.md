@@ -792,7 +792,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/iOSTestingTools?style=social)](https://github.com/muhittincamdali/iOSTestingTools/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/iOSTestingTools?style=social&logo=github)](https://github.com/muhittincamdali/iOSTestingTools/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/iOSTestingTools?style=social)](https://github.com/muhittincamdali/iOSTestingTools/network)
 [![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/iOSTestingTools)](https://github.com/muhittincamdali/iOSTestingTools/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOSTestingTools)](https://github.com/muhittincamdali/iOSTestingTools/pulls)
