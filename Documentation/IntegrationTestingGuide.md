@@ -1,5 +1,16 @@
 # Integration Testing Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [Integration Testing Guide](#integration-testing-guide)
+- [Writing Integration Tests](#writing-integration-tests)
+- [Example](#example)
+- [Database Testing](#database-testing)
+- [Network Simulation](#network-simulation)
+- [Best Practices](#best-practices)
+<!-- TOC END -->
+
+
 This guide explains how to write and run integration tests using iOSTestingTools.
 
 ## Writing Integration Tests

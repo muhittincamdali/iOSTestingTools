@@ -1,5 +1,26 @@
 # Mock Generation Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [Mock Generation Guide](#mock-generation-guide)
+- [Generating Mocks](#generating-mocks)
+- [Custom Mock Behavior](#custom-mock-behavior)
+- [Resetting Mocks](#resetting-mocks)
+- [Verifying Mock Calls](#verifying-mock-calls)
+- [Best Practices](#best-practices)
+- [Overview](#overview)
+- [Architecture](#architecture)
+- [Installation (SPM)](#installation-spm)
+- [Quick Start](#quick-start)
+- [API Reference](#api-reference)
+- [Usage Examples](#usage-examples)
+- [Performance](#performance)
+- [Security](#security)
+- [Troubleshooting](#troubleshooting)
+- [FAQ](#faq)
+<!-- TOC END -->
+
+
 This guide explains how to generate and use mocks with iOSTestingTools.
 
 ## Generating Mocks

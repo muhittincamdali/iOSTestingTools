@@ -1,5 +1,16 @@
 # Performance Testing Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [Performance Testing Guide](#performance-testing-guide)
+- [Writing Performance Tests](#writing-performance-tests)
+- [Example](#example)
+- [Memory Profiling](#memory-profiling)
+- [CPU Profiling](#cpu-profiling)
+- [Best Practices](#best-practices)
+<!-- TOC END -->
+
+
 This guide explains how to write and run performance tests using iOSTestingTools.
 
 ## Writing Performance Tests

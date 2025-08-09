@@ -1,5 +1,28 @@
 # Testing Best Practices Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [Testing Best Practices Guide](#testing-best-practices-guide)
+- [Overview](#overview)
+- [Test Structure](#test-structure)
+  - [AAA Pattern (Arrange, Act, Assert)](#aaa-pattern-arrange-act-assert)
+- [Test Naming](#test-naming)
+  - [Descriptive Test Names](#descriptive-test-names)
+- [Test Organization](#test-organization)
+  - [Test Class Structure](#test-class-structure)
+- [Best Practices](#best-practices)
+- [Performance Testing](#performance-testing)
+  - [Memory Testing](#memory-testing)
+- [UI Testing Best Practices](#ui-testing-best-practices)
+  - [Element Identification](#element-identification)
+  - [Wait Strategies](#wait-strategies)
+- [Test Data Management](#test-data-management)
+  - [Test Data Builders](#test-data-builders)
+- [Continuous Integration](#continuous-integration)
+  - [CI/CD Best Practices](#cicd-best-practices)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Testing Best Practices Guide provides comprehensive guidelines for writing effective and maintainable tests in iOS applications.

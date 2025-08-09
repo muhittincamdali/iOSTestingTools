@@ -1,5 +1,17 @@
 # Configuration API
 
+<!-- TOC START -->
+## Table of Contents
+- [Configuration API](#configuration-api)
+- [Overview](#overview)
+- [Core Components](#core-components)
+  - [TestingToolsConfiguration](#testingtoolsconfiguration)
+- [Key Features](#key-features)
+- [Usage Examples](#usage-examples)
+- [Best Practices](#best-practices)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Configuration API provides comprehensive tools for configuring all aspects of the iOS Testing Tools framework.
