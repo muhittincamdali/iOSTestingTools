@@ -1,96 +1,41 @@
-# API Reference
+# 📚 API Reference
 
-<!-- TOC START -->
-## Table of Contents
-- [API Reference](#api-reference)
-- [Modules](#modules)
-- [UnitTesting](#unittesting)
-  - [TestFramework](#testframework)
-  - [MockGenerator](#mockgenerator)
-  - [TestDataBuilder](#testdatabuilder)
-  - [AssertionHelpers](#assertionhelpers)
-- [UITesting](#uitesting)
-  - [UITestFramework](#uitestframework)
-  - [ElementFinder](#elementfinder)
-- [IntegrationTesting](#integrationtesting)
-  - [IntegrationFramework](#integrationframework)
-- [PerformanceTesting](#performancetesting)
-  - [PerformanceFramework](#performanceframework)
-- [TestUtilities](#testutilities)
-  - [TestUtilities](#testutilities)
-- [For full details, see the inline documentation in each module.](#for-full-details-see-the-inline-documentation-in-each-module)
-<!-- TOC END -->
+Complete API documentation for our iOS development framework.
 
+## Core Components
 
-This document provides a comprehensive API reference for iOSTestingTools.
+### Main Class
 
-## Modules
+```swift
+public class MainFramework {
+    public init()
+    public func start()
+    public func stop()
+    public func configure(_ settings: FrameworkSettings)
+}
+```
 
-- UnitTesting
-- UITesting
-- IntegrationTesting
-- PerformanceTesting
-- DebugTesting
-- TestUtilities
+## Public Methods
 
-## UnitTesting
+### Initialization
 
-### TestFramework
-- `initialize()`
-- `runAllTests()`
-- `addTestResult(_:)`
-- `getTestStatistics()`
+- `init()` - Initialize the framework
+- `configure(_:)` - Configure framework settings
 
-### MockGenerator
-- `generateMock(for:)`
-- `createMock(with:)`
-- `resetMocks()`
+### Lifecycle
 
-### TestDataBuilder
-- `createTestUser(...)`
-- `createTestProduct(...)`
-- `randomString(...)`
+- `start()` - Start the framework
+- `stop()` - Stop the framework
+- `pause()` - Pause operations
+- `resume()` - Resume operations
 
-### AssertionHelpers
-- `assertNotNil(_:)`
-- `assertEqual(_:_:)`
-- `assertThrows(_:)`
+## Error Handling
 
-## UITesting
-
-### UITestFramework
-- `initialize()`
-- `launchApp(...)`
-- `findElement(by:)`
-- `tap(on:)`
-- `typeText(_:into:)`
-- `takeScreenshot(name:)`
-
-### ElementFinder
-- `findElement(byIdentifier:)`
-- `findButton(byText:)`
-- `findTextField(byPlaceholder:)`
-
-## IntegrationTesting
-
-### IntegrationFramework
-- `initialize(environment:)`
-- `runIntegrationTests()`
-- `testAPIEndpoint(...)`
-
-## PerformanceTesting
-
-### PerformanceFramework
-- `initialize()`
-- `measurePerformance(operation:)`
-- `runBenchmark(operation:iterations:)`
-
-## TestUtilities
-
-### TestUtilities
-- `randomString(length:)`
-- `randomEmail(domain:)`
-- `wait(for:)`
-- `retry(operation:maxAttempts:initialDelay:)`
-
-## For full details, see the inline documentation in each module.
+```swift
+public enum FrameworkError: Error {
+    case initializationFailed
+    case configurationError
+    case networkError
+    case dataError
+}
+```
