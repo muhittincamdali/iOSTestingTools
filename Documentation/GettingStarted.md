@@ -1,90 +1,35 @@
-# Getting Started with iOSTestingTools
+# 🚀 Getting Started
 
-<!-- TOC START -->
-## Table of Contents
-- [Getting Started with iOSTestingTools](#getting-started-with-iostestingtools)
-- [Installation](#installation)
-  - [Swift Package Manager](#swift-package-manager)
-  - [CocoaPods](#cocoapods)
-  - [Carthage](#carthage)
-- [Quick Start](#quick-start)
-- [Example](#example)
-- [Documentation](#documentation)
-- [Support](#support)
-<!-- TOC END -->
+Welcome to our world-class iOS development framework! This guide will help you get started quickly and efficiently.
 
+## Prerequisites
 
-Welcome to iOSTestingTools! This guide will help you set up and start using the framework for your iOS projects.
+- iOS 15.0+
+- Xcode 14.0+
+- Swift 5.9+
+- macOS 12.0+
 
 ## Installation
 
 ### Swift Package Manager
 
-Add the following to your `Package.swift` dependencies:
+Add the following dependency to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/muhittincamdali/iOSTestingTools.git", from: "1.0.0")
+    .package(url: "https://github.com/muhittincamdali/REPO_NAME.git", from: "1.0.0")
 ]
 ```
 
-Or in Xcode:
-1. File → Add Packages
-2. Enter: `https://github.com/muhittincamdali/iOSTestingTools.git`
-3. Select version: `1.0.0`
+## Basic Setup
 
-### CocoaPods
+1. Import the framework
+2. Initialize the main component
+3. Configure your settings
+4. Start using the features
 
-Add to your `Podfile`:
+## Next Steps
 
-```ruby
-pod 'iOSTestingTools', '~> 1.0.0'
-```
-
-### Carthage
-
-Add to your `Cartfile`:
-
-```
-github "muhittincamdali/iOSTestingTools" ~> 1.0.0
-```
-
-## Quick Start
-
-1. Import the framework:
-   ```swift
-   import iOSTestingTools
-   ```
-2. Initialize the testing framework:
-   ```swift
-   TestFramework.initialize()
-   ```
-3. Start writing your tests using the provided utilities and helpers.
-
-## Example
-
-```swift
-import iOSTestingTools
-
-class UserServiceTests: XCTestCase {
-    func testFetchUser() async throws {
-        let userService = UserService()
-        let user = try await userService.fetchUser(id: "1")
-        XCTAssertEqual(user.name, "John Doe")
-    }
-}
-```
-
-## Documentation
-
-- [API Reference](API.md)
-- [Unit Testing Guide](UnitTestingGuide.md)
-- [UI Testing Guide](UITestingGuide.md)
-- [Integration Testing Guide](IntegrationTestingGuide.md)
-- [Performance Testing Guide](PerformanceTestingGuide.md)
-- [Mock Generation Guide](MockGenerationGuide.md)
-
-## Support
-
-- [GitHub Issues](https://github.com/muhittincamdali/iOSTestingTools/issues)
-- [Discussions](https://github.com/muhittincamdali/iOSTestingTools/discussions)
+- Check out our [Examples](Examples/) folder
+- Read the [API Documentation](API.md)
+- Explore [Advanced Usage](AdvancedUsage.md)
