@@ -1,0 +1,3 @@
+warning: 'iostestingtools': Source files for target DebugTesting should be located under 'Sources/DebugTesting', or a custom sources path can be set with the 'path' property in Package.swift
+warning: 'iostestingtools': Source files for target iOSTestingTools should be located under 'Sources/iOSTestingTools', or a custom sources path can be set with the 'path' property in Package.swift
+error: 'iostestingtools': target 'iOSTestingTools' referenced in product 'iOSTestingTools' is empty
