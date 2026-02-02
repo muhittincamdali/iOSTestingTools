@@ -13,12 +13,12 @@
 <div align="center">
 
 [![Swift](https://img.shields.io/badge/Swift-5.9+-F05138?style=flat-square&logo=swift&logoColor=white)](https://swift.org)
-[![Platform](https://img.shields.io/badge/Platforms-iOS%20|%20macOS%20|%20tvOS%20|%20watchOS-blue?style=flat-square)](https://developer.apple.com)
-[![SPM](https://img.shields.io/badge/SPM-Compatible-brightgreen?style=flat-square&logo=swift)](https://swift.org/package-manager/)
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-[![Tests](https://img.shields.io/badge/Tests-Passing-success?style=flat-square)]()
-[![codecov](https://img.shields.io/badge/Coverage-87%25-green?style=flat-square)]()
-
+[![CI](https://github.com/muhittincamdali/iOSTestingTools/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/muhittincamdali/iOSTestingTools/actions)[![Platform](https://img.shields.io/badge/Platforms-iOS%20|%20macOS%20|%20tvOS%20|%20watchOS-blue?style=flat-square)](https://developer.apple.com)
+[![CI](https://github.com/muhittincamdali/iOSTestingTools/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/muhittincamdali/iOSTestingTools/actions)[![SPM](https://img.shields.io/badge/SPM-Compatible-brightgreen?style=flat-square&logo=swift)](https://swift.org/package-manager/)
+[![CI](https://github.com/muhittincamdali/iOSTestingTools/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/muhittincamdali/iOSTestingTools/actions)[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
+[![CI](https://github.com/muhittincamdali/iOSTestingTools/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/muhittincamdali/iOSTestingTools/actions)[![Tests](https://img.shields.io/badge/Tests-Passing-success?style=flat-square)]()
+[![CI](https://github.com/muhittincamdali/iOSTestingTools/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/muhittincamdali/iOSTestingTools/actions)[![codecov](https://img.shields.io/badge/Coverage-87%25-green?style=flat-square)]()
+[![CI](https://github.com/muhittincamdali/iOSTestingTools/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/muhittincamdali/iOSTestingTools/actions)
 **Production-ready testing utilities for iOS, macOS, tvOS, and watchOS.**
 
 Mocks • Stubs • Spies • Snapshot Testing • Performance Metrics • XCTest Extensions
