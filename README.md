@@ -31,6 +31,20 @@ Mocks • Stubs • Spies • Snapshot Testing • Performance Metrics • XCTes
 
 ---
 
+## 📋 Table of Contents
+
+- [Why iOSTestingTools?](#why-iostestingtools)
+- [Installation](#installation)
+- [Quick Start](#quick-start)
+- [Testing Pyramid](#testing-pyramid)
+- [Modules](#modules)
+- [Examples](#examples)
+- [Contributing](#contributing)
+- [License](#license)
+- [Star History](#-star-history)
+
+---
+
 ## Why iOSTestingTools?
 
 Writing tests shouldn't be painful. This toolkit gives you everything you need:
