@@ -1,1 +1,31 @@
-// swift-tools-version: 5.9\nimport PackageDescription\n\nlet package = Package(\n    name: "iOSTestingTools",\n    platforms: [\n        .iOS(.v15),\n        .macOS(.v12),\n        .watchOS(.v8),\n        .tvOS(.v15)\n    ],\n    products: [\n        .library(name: "iOSTestingTools", targets: ["iOSTestingTools"]),\n    ],\n    dependencies: [],\n    targets: [\n        .target(\n            name: "iOSTestingTools",\n            dependencies: [],\n            path: "Sources/iOSTestingTools",\n            swiftSettings: [\n                .enableExperimentalFeature("StrictConcurrency")\n            ]\n        ),\n        .testTarget(\n            name: "iOSTestingToolsTests",\n            dependencies: ["iOSTestingTools"],\n            path: "Tests"\n        )\n    ]\n)
+// swift-tools-version: 5.9
+import PackageDescription
+
+let package = Package(
+    name: "iOSTestingTools",
+    platforms: [
+        .iOS(.v15),
+        .macOS(.v12),
+        .watchOS(.v8),
+        .tvOS(.v15)
+    ],
+    products: [
+        .library(name: "iOSTestingTools", targets: ["iOSTestingTools"]),
+    ],
+    dependencies: [],
+    targets: [
+        .target(
+            name: "iOSTestingTools",
+            dependencies: [],
+            path: "Sources/iOSTestingTools",
+            swiftSettings: [
+                .enableExperimentalFeature("StrictConcurrency")
+            ]
+        ),
+        .testTarget(
+            name: "iOSTestingToolsTests",
+            dependencies: ["iOSTestingTools"],
+            path: "Tests"
+        )
+    ]
+)
