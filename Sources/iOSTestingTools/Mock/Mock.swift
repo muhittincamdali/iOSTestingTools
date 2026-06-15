@@ -1,1 +1,29 @@
-import Foundation\n\npublic actor Mock<T: Sendable> {\n    private var recordedCalls: [String: Int] = [:]\n    private var results: [String: T] = [:]\n    public init() {}\n    public func record(_ function: String = #function) {\n        recordedCalls[function, default: 0] += 1\n    }\n    public func stub(_ function: String, result: T) {\n        results[function] = result\n    }\n    public func result(for function: String) -> T? {\n        return results[function]\n    }\n    public func callCount(for function: String) -> Int {\n        return recordedCalls[function] ?? 0\n    }\n    public func reset() {\n        recordedCalls.removeAll()\n        results.removeAll()\n    \n    }\n}
+import Foundation
+
+public actor Mock<T: Sendable> {
+    private var recordedCalls: [String: Int] = [:]
+    private var results: [String: T] = [:]
+    
+    public init() {}
+    
+    public func record(_ function: String = #function) {
+        recordedCalls[function, default: 0] += 1
+    }
+    
+    public func stub(_ function: String, result: T) {
+        results[function] = result
+    }
+    
+    public func result(for function: String) -> T? {
+        return results[function]
+    }
+    
+    public func callCount(for function: String) -> Int {
+        return recordedCalls[function] ?? 0
+    }
+    
+    public func reset() {
+        recordedCalls.removeAll()
+        results.removeAll()
+    }
+}
